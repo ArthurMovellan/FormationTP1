@@ -8,3 +8,4 @@ services:
       - '4200:4200'
     volumes:
       - ./angular-app:/app
+      - /app/node_modules
